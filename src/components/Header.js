@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import me from "../header.jpg";
+import me from "../header2.jpg";
 
 export default class Header extends Component {
   render() {
