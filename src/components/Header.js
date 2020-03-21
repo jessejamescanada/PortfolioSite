@@ -32,6 +32,20 @@ export default class Header extends Component {
                   <span className="textEmphasis">JavaScript(ES6)</span> and{" "}
                   <span className="textEmphasis">React</span>
                 </p>
+                <div className="iconContainer">
+                  <a target="_blank" href="https://github.com/jessejamescanada?tab=repositories">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/jesse-giammattolo-468233184/"
+                  >
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                  <a target="_blank" href="https://twitter.com/JesseJamesphoto">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
                 <a href="#project" className="headerLink">
                   View my work
                 </a>
