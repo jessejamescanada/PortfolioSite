@@ -10,6 +10,7 @@ export default class ProjectCard extends Component {
         <img src={this.props.project.image} alt="" className='projectLandIMG'/>
       </div>
       </a>
+      <p className='projectParagraph'>{this.props.project.paragraph}</p>
       <div className="anchorContainer">
         <a href={this.props.project.webLink}>{this.props.project.link1}</a>
         <a href={this.props.project.github}>{this.props.project.link2}</a>

@@ -152,11 +152,11 @@ opacity: .6;
 
 .resume:hover{
   -webkit-filter: brightness(70%);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .projects{
   display: flex;
@@ -195,28 +195,26 @@ transition: background-color .7s ease;
   background-color: rgba(106, 168, 226, 0.534);
   color: white;
 }
+.projCard1{background-color: #46B1C9}
+.projCard2{background-color: #84C0C6}
+.projCard3{background-color: #9FB7B9}
+.projCard4{background-color: #BCC1BA}
+.projCard5{background-color: #D5B0AC}
+.projectParagraph{
+  margin-top: 5%;
+  text-align: left;
+  padding: 5px;
+}
 .imgHoverWrapper{
   overflow: hidden;
 }
-/* .projectCardVert a, .projectCardLand a{
-  align-items: center;
-  align-content: center;
-  justify-content: space-evenly;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: red;
-  font-size: 20px;
-  
-} */
+
 .projectLandIMG{
   cursor: pointer;
-  height: 500px;
+  height: 300px;
   width: 400px;
   object-fit: cover;
   transition: transform .7s ease;
-  border-radius: 5px;
   -webkit-filter: brightness(100%);
 }
 .projectLandIMG:hover{
@@ -246,7 +244,14 @@ transition: background-color .7s ease;
   transform: translate(-50%, -50%);
   color: red;
   font-size: 20px;
-  width: 200px;
+  width: 250px;
+}
+.anchorContainer a{
+  text-decoration: none;
+  color: #fff;
+}
+.anchorContainer a:hover{
+  color: rgb(206, 85, 15);
 }
 
 /* form */
@@ -279,13 +284,20 @@ transition: background-color .7s ease;
   margin: 5px;
 }
 .formBTN{
+  color: #fff;
   padding: 15px 30px;
   margin: 5px 0px;
   font-size: 24px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: lightslategray;
+  background-color: rgba(236, 141, 97, 0.842);
+}
+.formBTN:hover{
+  background-color: rgba(224, 110, 57, 0.562);
+}
+.formBTN:focus{
+  outline: none;
 }
 
 .formCont{
@@ -308,7 +320,7 @@ transition: background-color .7s ease;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .techContainer h1{
   width: 200px;
@@ -318,11 +330,13 @@ transition: background-color .7s ease;
 .resumeTechContainer{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
 }
 .techContainerIMG{
-  width: 800px;
+  /* width: 800px; */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 40px;
   margin-bottom: 40px;
   align-items: center;
@@ -421,6 +435,21 @@ transition: background-color .7s ease;
 
 
 /* media */
+@media(max-width: 1000px){
+  .resumeTechContainer{
+    flex-direction: column;
+  }
+  .formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+}
 @media(max-width: 768px){
   .App{
     margin: 0;
@@ -470,6 +499,7 @@ transition: background-color .7s ease;
   .resumeTechContainer{
     display: flex;
     flex-direction: column;
+    width: auto;
   }
   .techContainerIMG{
     display: flex;
@@ -507,19 +537,24 @@ transition: background-color .7s ease;
     padding: 0;
   }
   .projectCardLand{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     width: auto;
-    height: auto;
+    height: 500px;
     margin: 20px auto;
-    padding: 30px 0;
+    padding: 20px 0;
   }
   .projectLandIMG{
+    display: flex;
+    margin: auto;
     width: 300px;
-    height: 400px;
+    height: 250px;
+  }
+  .projectParagraph{
+    text-align: center;
   }
   .anchorContainer{
     display: flex;

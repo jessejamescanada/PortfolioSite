@@ -18,20 +18,20 @@ showModal = () => {
       <div className="techContainer">
       <h1>Technologies</h1>
       <div className="resumeTechContainer">
-      {/* <div className="resume" id='resume'>
+      <div className="resume" id='resume'>
       <h4>Resume</h4>
         <img src={resume} alt="" className='resume' onClick={this.showModal}/>
-      </div> */}
+      </div>
       <Modal />
       <div className="techContainerIMG">
         <img src={jsLogo} alt="" className="jsLogo" />
         <img src={reactLogo} alt="" className="reactLogo" />
         </div>
       </div>
-      <div className="resume" id='resume'>
+      {/* <div className="resume" id='resume'>
       <h1>Resume</h1>
         <img src={resume} alt="" className='resume' onClick={this.showModal}/>
-      </div>
+      </div> */}
     </div>
     )
   }
