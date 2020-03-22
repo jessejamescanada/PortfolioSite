@@ -5,15 +5,15 @@ export default class ProjectCard extends Component {
   return (
     <div>
       <h2 className="title">{this.props.project.title}</h2>
-      <a target='_blank' href={this.props.project.mainLink}>
+      <a target='_blank' rel='noopener noreferrer' href={this.props.project.mainLink}>
       <div className="imgHoverWrapper">
         <img src={this.props.project.image} alt="" className='projectLandIMG'/>
       </div>
       </a>
       <p className='projectParagraph'>{this.props.project.paragraph}</p>
       <div className="anchorContainer">
-        <a href={this.props.project.webLink}>{this.props.project.link1}</a>
-        <a href={this.props.project.github}>{this.props.project.link2}</a>
+        <a target='_blank' rel='noopener noreferrer' href={this.props.project.webLink}>{this.props.project.link1}</a>
+        <a target='_blank' rel='noopener noreferrer' href={this.props.project.github}>{this.props.project.link2}</a>
       </div>
     </div>
   )

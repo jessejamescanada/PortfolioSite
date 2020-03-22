@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import reactLogo from "../reactLogo.png";
 import jsLogo from "../jsLogo.png";
-import resume from '../resume.JPG'
-import Modal from '../components/Modal'
 
 export default class Technologies extends Component {
 

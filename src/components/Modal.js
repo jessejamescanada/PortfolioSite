@@ -32,7 +32,7 @@ export default class Modal extends Component {
               X
             </p>
           <img
-            src={resume} className='resumeFull'
+            src={resume} className='resumeFull' alt='resume'
           />
         </div>
       </div>

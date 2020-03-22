@@ -33,17 +33,17 @@ export default class Header extends Component {
                   <span className="textEmphasis">React</span>
                 </p>
                 <div className="iconContainer">
-                  <a target="_blank" href="https://github.com/jessejamescanada?tab=repositories">
-                    <i class="fab fa-github fa-2x"></i>
+                  <a target="_blank" rel='noopener noreferrer' href="https://github.com/jessejamescanada?tab=repositories">
+                    <i className="fab fa-github fa-2x"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank" rel='noopener noreferrer'
                     href="https://www.linkedin.com/in/jesse-giammattolo-468233184/"
                   >
-                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i className="fab fa-linkedin fa-2x"></i>
                   </a>
-                  <a target="_blank" href="https://twitter.com/JesseJamesphoto">
-                    <i class="fab fa-twitter fa-2x"></i>
+                  <a target="_blank" rel='noopener noreferrer'href="https://twitter.com/JesseJamesphoto">
+                    <i className="fab fa-twitter fa-2x"></i>
                   </a>
                 </div>
                 <a href="#project" className="headerLink">

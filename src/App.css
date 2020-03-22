@@ -424,6 +424,7 @@ transition: background-color .7s ease;
 
 .footer{
   display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -483,6 +484,7 @@ transition: background-color .7s ease;
 .aboutTextContainer{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 0 50px;
 }
 .aboutTextContainer h3{
@@ -844,5 +846,31 @@ transition: background-color .7s ease;
   }
   .resumeFull{
     width: auto;
+  }
+}
+
+@media(max-width: 375px){
+  .aboutIMG{
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px
+  }
+  .resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutWrapper{
+    width: auto;
+    /* margin: auto; */
+    overflow: hidden;
+  }
+  .aboutContainer{
+    width: auto;
+    /* margin: auto; */
+    overflow: hidden;
   }
 }
