@@ -13,7 +13,7 @@ export default class Header extends Component {
                 <a href="#project">Projects</a>
               </li>
               <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume">About</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -57,3 +57,4 @@ export default class Header extends Component {
     );
   }
 }
+

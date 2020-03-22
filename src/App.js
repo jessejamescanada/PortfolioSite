@@ -4,6 +4,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Technologies from './components/Technologies';
 import Footer from './components/Footer'
+import About from './components/About'
 import './App.css';
 
 
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <Header />
       <Projects />
-      <Technologies />
+      <About />
+      {/* <Technologies /> */}
       <Contact />
       <Footer />
     </div>
