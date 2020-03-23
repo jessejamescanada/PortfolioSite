@@ -17,7 +17,7 @@ export default class MyForm extends React.Component {
         <div className="formCont">
         <form
           onSubmit={this.submitForm}
-          action="https://formspree.io/photography.jesse.james@gmail.com"
+          action="https://formspree.io/xbjkpzyr"
           method="POST"
         >
           <div className="ccfield-prepend">
