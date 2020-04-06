@@ -74,7 +74,7 @@ export default function Projects() {
                 title: "Quit Smoking",
                 mainLink: "https://pedantic-lamarr-d3bd23.netlify.com/",
                 image: quit,
-                paragraph: 'I wanted to build something meaningful to me. A calculator where the user enters costs, amounts and a date and it updates the results and can be reset. Built with React, HTML, CSS, JavaScript',
+                paragraph: 'My first app using React hooks. I wanted to build something meaningful to me. A calculator where the user enters costs, amounts and a date and it updates the results and can be reset. Built with React, HTML, CSS, JavaScript',
                 webLink: "https://pedantic-lamarr-d3bd23.netlify.com/",
                 link1: "Live Site",
                 github: 'https://github.com/jessejamescanada/REACTquitSmokingCalc',
