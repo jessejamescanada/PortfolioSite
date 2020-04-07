@@ -26,7 +26,7 @@ export default class About extends Component {
           <h3>About me</h3>
           <p className="aboutPara"> My name is <strong>Jesse Giammattolo</strong>, and I am a <strong>Web Developer</strong> living in Niagara Falls, Ontario. I have been self teaching myself various front end web technologies from <strong>HTML, CSS, JavaScript(ES6) and React</strong> for the past 2 years. I attended <strong>Juno College</strong> in Toronto at the start of 2019 to get my feet wet with JavaScript and have taken countless JavaScript and React courses to further my knowledge since. I love the creativity and various challenges that web development presents every day. Please check out my projects section to see some examples of my work. Some have been made with just vanilla JavaScript, HTML and CSS while others include React and getting data from API's or using different React libraries.<br></br>
           Previously I was a professional photographer for 12 years. I have shot over 400 weddings and countless family, engagement and corporate events. Besides that, I am a huge animal lover, netflix connoisseur and outdoor adventurer.<br></br>
-          Please take a look at my <strong><a className='res' href='shorturl.at/bcFGK'>Resume</a></strong></p>
+          Please take a look at my <strong><a className='res' href='https://shorturl.at/bcFGK'>Resume</a></strong></p>
           <h3>Technologies</h3>
           <div className="techContainerIMG">
         <img src={jsLogo} alt="" className="jsLogo" />
