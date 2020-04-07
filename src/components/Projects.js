@@ -33,7 +33,7 @@ export default function Projects() {
                 title: "Aspire Finance",
                 mainLink: "https://gallant-goldstine-e17e08.netlify.com/",
                 image: aspire,
-                paragraph: 'My first client! I built a website for a local financial advisor using vanilla JavaScript, HTML and CSS. I tried to make it interactive with different modals, toggling classes to show/hide information, added a button to scroll to the top and responsive for both desktop and mobile.',
+                paragraph: 'My first client! I built a website for a local financial advisor using vanilla JavaScript, HTML and CSS. I made it interactive with different modals, toggling classes to show/hide information and responsive for both desktop and mobile.',
                 webLink: "https://gallant-goldstine-e17e08.netlify.com/",
                 link1: "Live Site",
                 github: 'https://github.com/jessejamescanada/AspireFinance',
