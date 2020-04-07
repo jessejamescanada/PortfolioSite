@@ -4,6 +4,7 @@ import pixabay from "../pixabay.JPG";
 import quit from "../quit.JPG";
 import photography from "../photography.JPG";
 import covoid from "../covoid.JPG";
+import aspire from '../Aspire.JPG'
 import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
@@ -29,6 +30,20 @@ export default function Projects() {
           <div className="projectCardLand projCard2">
           <ProjectCard
               project={{
+                title: "Aspire Finance",
+                mainLink: "https://gallant-goldstine-e17e08.netlify.com/",
+                image: aspire,
+                paragraph: 'My first client! I built a website for a local financial advisor using vanilla JavaScript, HTML and CSS. I tried to make it interactive with different modals, toggling classes to show/hide information, added a button to scroll to the top and responsive for both desktop and mobile.',
+                webLink: "https://gallant-goldstine-e17e08.netlify.com/",
+                link1: "Live Site",
+                github: 'https://github.com/jessejamescanada/AspireFinance',
+                link2: "Github"
+              }}
+            />
+          </div>
+          <div className="projectCardLand projCard3">
+          <ProjectCard
+              project={{
                 title: "Pixabay Search",
                 mainLink: "https://reverent-ardinghelli-aea4f2.netlify.com/",
                 image: pixabay,
@@ -40,7 +55,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard3">
+          <div className="projectCardLand projCard4">
           <ProjectCard
               project={{
                 title: "COVOID-19 Tracker",
@@ -54,7 +69,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard4">
+          <div className="projectCardLand projCard5">
           <ProjectCard
               project={{
                 title: "Photography",
@@ -68,7 +83,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard5">
+          <div className="projectCardLand projCard6">
           <ProjectCard
               project={{
                 title: "Quit Smoking",
