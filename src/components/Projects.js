@@ -31,10 +31,10 @@ export default function Projects() {
           <ProjectCard
               project={{
                 title: "Aspire Finance",
-                mainLink: "https://gallant-goldstine-e17e08.netlify.com/",
+                mainLink: "https://aspirefinance.ca/",
                 image: aspire,
                 paragraph: 'My first client! I built a website for a local financial advisor using vanilla JavaScript, HTML and CSS. I made it interactive with different modals, toggling classes to show/hide information and responsive for both desktop and mobile.',
-                webLink: "https://gallant-goldstine-e17e08.netlify.com/",
+                webLink: "https://aspirefinance.ca/",
                 link1: "Live Site",
                 github: 'https://github.com/jessejamescanada/AspireFinance',
                 link2: "Github"
