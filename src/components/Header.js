@@ -3,11 +3,15 @@ import me from "../header2.jpg";
 
 export default class Header extends Component {
   render() {
+    function topScroll() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
     return (
+      <section id="header">
       <div className="header">
         <div className="container">
           <nav className="main-nav">
-            <h2>Jesse<em className='italics'> G</em></h2>
+            <a href="#header"><h2>Jesse<em className='italics'> G</em></h2></a>
             <ul className="navbarList">
               <li>
                 <a href="#project">Projects</a>
@@ -54,6 +58,7 @@ export default class Header extends Component {
           </div>
         </div>
       </div>
+      </section>
     );
   }
 }

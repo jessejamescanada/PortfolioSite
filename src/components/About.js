@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import resume from '../resume.JPG'
-// import Modal from '../components/Modal'
 import reactLogo from "../reactLogo.png";
 import jsLogo from "../jsLogo.png";
 
@@ -17,11 +15,6 @@ export default class About extends Component {
     <div className='aboutContainer'>
       <div className="aboutWrapper">
         <div className="aboutIMGparaContainer">
-        {/* <div className="resume" id='resume'>
-      <h4>Resume</h4>
-        <img src={resume} alt="" className='aboutIMG' onClick={this.showModal}/>
-      </div> */}
-      {/* <Modal /> */}
           <div className="aboutTextContainer">
           <h3>About me</h3>
           <p className="aboutPara"> My name is <strong>Jesse Giammattolo</strong>, and I am a <strong>Web Developer</strong> living in Niagara Falls, Ontario. I have been self teaching myself various front end web technologies from <strong>HTML, CSS, JavaScript(ES6) and React</strong> for the past 2 years. I attended <strong>Juno College</strong> in Toronto at the start of 2019 to get my feet wet with JavaScript and have taken countless JavaScript and React courses to further my knowledge since. I love the creativity and various challenges that web development presents every day. From the start I have been designing my websites with <strong>FlexBox and CSS Grid</strong>. Please check out my projects section to see some examples of my work. Some have been made with just vanilla JavaScript, HTML and CSS while others include React and getting data from <strong>API's</strong> or using different React libraries.<br></br>
@@ -34,9 +27,7 @@ export default class About extends Component {
         </div>
           </div>
         </div>
-        
-      </div>
-      
+      </div>  
     </div>
   )
   }

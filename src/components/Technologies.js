@@ -22,10 +22,6 @@ showModal = () => {
         <img src={reactLogo} alt="" className="reactLogo" />
         </div>
       </div>
-      {/* <div className="resume" id='resume'>
-      <h1>Resume</h1>
-        <img src={resume} alt="" className='resume' onClick={this.showModal}/>
-      </div> */}
     </div>
     )
   }

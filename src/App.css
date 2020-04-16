@@ -43,6 +43,12 @@ flex-direction: column;
   font-size: 35px;
   margin-top: 5px;
 }
+
+.main-nav a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #222;
+}
 .navbarList{
   font-size: 20px;
   display: flex;
@@ -76,9 +82,24 @@ flex-direction: column;
   text-align: center;
   overflow: hidden;
 }
+
+.fa-arrow-up{
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  color: white;
+  background-color: rgba(75, 75, 75, 0.623);
+  cursor: pointer
+}
 .headerIMG{
   width: 100%;
-  height: 100%;
+  height: 80vh;
 }
 .headerPara{
   display: flex;
@@ -88,11 +109,13 @@ flex-direction: column;
   margin: 7px 5px;
 }
 .iconContainer i:hover{
+  cursor: pointer;
   color: rgb(255, 47, 47);;
 }
 .fab{
   color: #fff;
 }
+
 .headerContent{
   display: flex;
   flex-direction: column;
@@ -119,10 +142,13 @@ flex-direction: column;
 }
 .headerContainer h1{
   position: relative;
-  left: -1500px;
+  font-size: 32px;
+  left: -3000px;
   width: 400px;
-  height: 80px;
+  height: 50px;
   animation: slide 1s forwards;
+  -moz-animation: slide 1s forwards;
+  -moz-animation-delay: 2s;
   animation-delay: 2s;
 }
 @keyframes slide {
@@ -131,10 +157,12 @@ flex-direction: column;
 
 .headerPara{
   position: relative;
-  right: -1500px;
+  right: -2000px;
   width: 300px;
-  height: 100px;
+  height: 160px;
   animation: slide2 1s forwards;
+  -moz-animation: slide2 1s forwards;
+  -moz-animation-delay: 2s;
   animation-delay: 2s;
 }
 @keyframes slide2{
@@ -153,14 +181,6 @@ flex-direction: column;
   justify-content: space-between;
 }
 
-/* .resume:hover{
-  -webkit-filter: brightness(70%);
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-} */
 .projects{
   display: flex;
   flex-direction: row;
@@ -392,18 +412,7 @@ flex-direction: column;
   background-color: #fff;
   border-radius: 5px;
 }
-/* .resume{
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 10px;
-  -webkit-filter: brightness(100%);
-  width: auto;
-}
-.resume h4{
-  text-align: center;
-} */
+
 .aboutIMG{
   height: 350px;
   width: auto;
@@ -467,6 +476,10 @@ flex-direction: column;
     width: 100vw;
     height: auto;
   }
+  .fa-arrow-up{
+    bottom: 10px;
+    right: 10px;
+  }
   .formContainer{
     display: flex;
     flex-direction: column;
@@ -496,13 +509,7 @@ flex-direction: column;
     text-align: center;
     padding-top: 20px;
   }
-  /* .resume{
-    margin: 0;
-    border-radius: 10px;
-    width: auto;
-    height: 400px;
-    margin-bottom: 30px;
-  } */
+
   .aboutIMG{
     margin: 0;
     width: auto;
@@ -644,9 +651,6 @@ flex-direction: column;
     height: 90%;
   }
   
-  /* .resumeFull{
-    width: 100%;
-  } */
   .headerContainer{
     width: 100%;
     height: 50vh;
@@ -668,7 +672,7 @@ flex-direction: column;
   .headerContainer h1{
     position: relative;
     font-size: 26px;
-    left: -400px;
+    left: -800px;
     width: 300px;
     height: 50px;
     margin: 0;
@@ -689,11 +693,11 @@ flex-direction: column;
   }
 }
 
-@media(max-width: 2000px){
+/* @media(max-width: 2000px){
   .headerPara{
-    top: 80%;
+    top: 10%;
   }
-}
+} */
 
 @media(max-width: 1024px){
   .App{
@@ -703,6 +707,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
   }
+
 
   .formContainer{
     display: flex;
@@ -755,13 +760,7 @@ flex-direction: column;
     text-align: center;
     padding-top: 20px;
   }
-  /* .resume{
-    margin: 0;
-    border-radius: 10px;
-    width: auto;
-    height: 600px;
-    margin-bottom: 30px;
-  } */
+
   .aboutIMG{
     margin: 0;
     width: auto;
@@ -780,9 +779,6 @@ flex-direction: column;
     height: 90%;
     margin: 30px 0;
   }
-  /* .resumeFull{
-    width: auto;
-  } */
 }
 
 @media(max-width: 375px){
@@ -793,12 +789,6 @@ flex-direction: column;
     margin: 0;
     padding: 10px
   }
-  /* .resume{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
   .aboutWrapper{
     width: auto;
     overflow: hidden;
