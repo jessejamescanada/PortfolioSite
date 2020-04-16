@@ -3,9 +3,6 @@ import me from "../header2.jpg";
 
 export default class Header extends Component {
   render() {
-    function topScroll() {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
     return (
       <section id="header">
       <div className="header">
@@ -17,7 +14,7 @@ export default class Header extends Component {
                 <a href="#project">Projects</a>
               </li>
               <li>
-                <a href="#resume">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>

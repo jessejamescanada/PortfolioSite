@@ -12,6 +12,7 @@ export default class About extends Component {
   
   render(){
   return (
+    <section id="about">
     <div className='aboutContainer'>
       <div className="aboutWrapper">
         <div className="aboutIMGparaContainer">
@@ -29,6 +30,7 @@ export default class About extends Component {
         </div>
       </div>  
     </div>
+    </section>
   )
   }
 }
