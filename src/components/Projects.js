@@ -58,7 +58,7 @@ export default function Projects() {
           <div className="projectCardLand projCard4">
           <ProjectCard
               project={{
-                title: "COVOID-19 Tracker",
+                title: "COVID-19 Tracker",
                 mainLink: "https://condescending-hodgkin-26b8d3.netlify.com/",
                 image: covoid,
                 paragraph: `I wanted to make something to help family & friends track the CoronaVirus pandemic. Built with React and connects to John Hopkins University API and NewsAPI. Data is displayed with ChartJS library and news uses CSS grid.`,
