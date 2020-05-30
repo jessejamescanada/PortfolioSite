@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import reactLogo from "../reactLogo.png";
 import jsLogo from "../jsLogo.png";
 
+
 export default class Technologies extends Component {
 
 showModal = () => {
@@ -20,6 +21,7 @@ showModal = () => {
       <div className="techContainerIMG">
         <img src={jsLogo} alt="" className="jsLogo" />
         <img src={reactLogo} alt="" className="reactLogo" />
+
         </div>
       </div>
     </div>

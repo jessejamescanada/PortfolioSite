@@ -5,6 +5,7 @@ import quit from "../quit.JPG";
 import photography from "../My_Website.JPG";
 import covoid from "../covoid.JPG";
 import aspire from "../Aspire.JPG";
+import todo from '../ToDo.JPG'
 import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
@@ -31,6 +32,21 @@ export default function Projects() {
           <div className="projectCardLand projCard2">
             <ProjectCard
               project={{
+                title: "Database Powered ToDo List",
+                mainLink: "https://may19-27b38.web.app/",
+                image: todo,
+                paragraph:
+                  "I used Google's Firebase Firestore for the database. Users can register, login, logout, create and delete tasks and access them from different devices with everything stored in the database. I used vanilla JavaScript with Materialize CSS",
+                webLink: "https://may19-27b38.web.app/",
+                link1: "Live Site",
+                github: "https://github.com/jessejamescanada/firebaseLogin",
+                link2: "Github",
+              }}
+            />
+          </div>
+          <div className="projectCardLand projCard3">
+            <ProjectCard
+              project={{
                 title: "Aspire Finance",
                 mainLink: "https://aspirefinance.ca/",
                 image: aspire,
@@ -43,7 +59,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard3">
+          <div className="projectCardLand projCard4">
             <ProjectCard
               project={{
                 title: "Photography",
@@ -58,7 +74,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard4">
+          <div className="projectCardLand projCard5">
             <ProjectCard
               project={{
                 title: "Pixabay Search",
@@ -73,7 +89,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard5">
+          <div className="projectCardLand projCard6">
             <ProjectCard
               project={{
                 title: "COVID-19 Tracker",
@@ -87,7 +103,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard6">
+          <div className="projectCardLand projCard7">
             <ProjectCard
               project={{
                 title: "Quit Smoking",
