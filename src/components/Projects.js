@@ -89,20 +89,7 @@ export default function Projects() {
               }}
             />
           </div>
-          <div className="projectCardLand projCard6">
-            <ProjectCard
-              project={{
-                title: "COVID-19 Tracker",
-                mainLink: "https://condescending-hodgkin-26b8d3.netlify.com/",
-                image: covoid,
-                paragraph: `I wanted to make something to help family & friends track the CoronaVirus pandemic. Built with React and connects to John Hopkins University API and NewsAPI. Data is displayed with ChartJS library and news uses CSS grid.`,
-                webLink: "https://condescending-hodgkin-26b8d3.netlify.com/",
-                link1: "Live Site",
-                github: "https://github.com/jessejamescanada/REACTcoronaVirus",
-                link2: "Github",
-              }}
-            />
-          </div>
+
           <div className="projectCardLand projCard7">
             <ProjectCard
               project={{
